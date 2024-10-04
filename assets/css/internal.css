@@ -15,7 +15,6 @@
 .s-wrapper video{
   position: fixed;
   width: 100%;
-
 }
 
 .s-wrapper .s-left-column {
@@ -35,7 +34,11 @@
   height: 100%;
   width: 100%;
   padding-left: 130px;
+  padding-right: 50px;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20rem;
 }
 
 .s-wrapper .s-main-content__top {
